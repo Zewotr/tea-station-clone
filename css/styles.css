@@ -624,6 +624,10 @@ p {
 =================
 */
 .footer {
+  display : flex;
+  align-items: end;
+  height: 20vh;
+  position: static;
   background: #222;
   text-align: center;
 }
@@ -645,3 +649,4 @@ p {
 .company {
   color: var(--clr-primary);
 }
+
